@@ -13,5 +13,14 @@ var student = {
     course: ["javaScript", "TypeScript", "HTML", "CSS"]
 };
 console.log(student);
-// Shape Shifter: Write a program that can describe either a circle or a rectangle using a
-//  special type alias, including properties unique to each shape
+var circle = {
+    kind: "circle",
+    radius: 5
+};
+var rectanglr = {
+    kind: "rectangle",
+    height: 5,
+    width: 4
+};
+console.log(circle);
+console.log(rectanglr);
